@@ -1,0 +1,39 @@
+* {
+  background-color: rgb(136, 136, 136);
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  background-color: rgb(163, 148, 16);
+}
+h1.title1 {
+  color: blue;
+}
+h2.title2 {
+  color: red;
+}
+
+h3 {
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(23, 214, 16);
+}
+#main {
+  border: 1px black solid;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-align: center;
+}
+.link {
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  cursor: crosshair;
+}
