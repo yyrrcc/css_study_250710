@@ -1,0 +1,33 @@
+* {
+  background-color: lightslategray;
+}
+
+h1 {
+  font-family: "Diphylleia", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: darkgreen;
+  font-size: 50px;
+}
+p {
+  border: 2px black dashed;
+  text-align: center;
+}
+span {
+  color: palevioletred;
+  font-style: italic;
+  font-weight: bold;
+}
+.emp {
+  color: black;
+  text-decoration: underline;
+}
+.box {
+  width: 600px;
+}
+ul {
+  list-style: circle;
+  font-family: "Song Myung", serif;
+  font-weight: 400;
+  font-style: normal;
+}

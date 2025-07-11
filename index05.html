@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        background-color: lightslategray;
+      }
+      ul {
+        /* 리스트 기본 점 삭제 */
+        list-style: none;
+      }
+      a:link {
+        text-decoration: none;
+        color: darkmagenta;
+      }
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        /* 링크 위에 마우스 포인터가 위치한 상태 */
+        text-decoration: underline;
+        color: black;
+      }
+      a:active {
+        /* 마우스 클릭하고 있는 상태 */
+        background-color: blue;
+      }
+    </style>
+    <title>icon test</title>
+  </head>
+  <body>
+    <ul>
+      <li><i class="fa-solid fa-house"></i> <a href="#">메뉴</a></li>
+      <li><i class="fa-solid fa-thumbs-up"></i> <a href="#1">좋아요</a></li>
+      <li><i class="fa-solid fa-bell"></i> <a href="#2">고객센터</a></li>
+      <li><i class="fa-solid fa-envelope"></i> <a href="#3">이메일</a></li>
+    </ul>
+    <h1>icon을 넣어보아요</h1>
+    <div class="list-group">
+      <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+      <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+      <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+      <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+    </div>
+    <p>
+      <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+
+      <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+
+      <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+
+      <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+      <span class="sr-only">Loading...</span>
+    </p>
+  </body>
+</html>
