@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position test</title>
+    <style>
+      * {
+        background-color: darkolivegreen;
+        /* position을 설정할 때 margin, padding의 값은 0으로 초기화 시켜야 한다 */
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: orange;
+      }
+      /* #box1 {
+        position: absolute;
+        right: 100px;
+      } */
+      #box2 {
+        background-color: orangered;
+        position: absolute;
+        /* left: 200px;
+        top: 200px; */
+      }
+      /* #box3 {
+        position: absolute;
+        left: 300px;
+        top: 300px; 
+      } */
+      /* #text {
+        position: absolute;
+        left: 150px;
+        top: 150px;
+      } */
+      #img {
+        position: absolute;
+        /* right: 150px;
+        top: 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3">3</div>
+    <p id="text">Hello World</p>
+    <img src="static/img/roseimg.jpeg" width="200px" id="img" />
+    <p id="text2">Hello World</p>
+  </body>
+</html>

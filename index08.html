@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box 테두리 만들기</title>
+    <style>
+      * {
+        background-color: lightslategray;
+      }
+      div {
+        border: 5px black;
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        font-size: 30px;
+        border-width: 15px;
+        padding: 30px;
+        margin: 20px;
+        line-height: 200px;
+      }
+      .box1 {
+        border-style: solid;
+      }
+      .box2 {
+        border-style: dashed;
+      }
+      .box3 {
+        border-style: dotted;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">BOX 박스 1번</div>
+    <div class="box2">BOX 박스 2번</div>
+    <div class="box3">BOX 박스 3번</div>
+  </body>
+</html>

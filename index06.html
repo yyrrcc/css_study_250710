@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>06</title>
+    <title>div p 인라인 블럭</title>
     <style>
       * {
         background-color: gray;
@@ -12,16 +12,21 @@
         color: red;
         font-weight: bold;
       }
+      .div1,
+      .p1 {
+        /* 블록 형태의 div, p을 인라인 + 블록 특성 조합 */
+        display: inline-block;
+      }
     </style>
   </head>
   <body>
     <h1>제목</h1>
-    <div>HEllO</div>
-    <div>HEllO</div>
+    <div style="background-color: red">HEllO</div>
+    <div class="div1" style="color: blue; background-color: red">HEllO</div>
     <div>HEllO</div>
     <span>Hi!</span><span>Hi!</span><span>Hi!</span>
-    <p>HELLO</p>
-    <p>HELLO</p>
+    <p style="background-color: red">HELLO</p>
+    <p class="p1" style="color: blue; background-color: red">HELLO</p>
     <p>HELLO</p>
     <p>HELLO</p>
     <p>HELLO</p>

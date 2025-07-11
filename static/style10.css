@@ -1,0 +1,18 @@
+nav {
+  background-color: darkseagreen;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  border: 1px black solid;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 50px;
+}
+a {
+  text-decoration: none;
+}
