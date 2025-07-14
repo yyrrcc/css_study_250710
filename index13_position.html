@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fixed - Position</title>
+    <style>
+      * {
+        background-color: rgb(160, 160, 160);
+        padding: 0;
+        margin: 0;
+      }
+      p {
+        border: 2px red solid;
+        font-size: 30px;
+        width: 300px;
+        height: 200px;
+      }
+      #box2 {
+        position: absolute;
+        left: 150px;
+      }
+      #box3 {
+        position: absolute;
+        left: 300px;
+      }
+      #fix1 {
+        border: 1px black solid;
+        background-color: black;
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        top: 50px;
+        right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="box1">
+      1안녕하세요 <br />
+      감사합니다
+    </p>
+    <p id="box2">
+      2어서오세요 <br />
+      반갑습니다
+    </p>
+    <p id="box3">
+      3고맙습니다 <br />
+      안녕히가세요
+    </p>
+    <p id="fix1">네모</p>
+  </body>
+</html>

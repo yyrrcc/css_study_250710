@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>relative - position</title>
+    <style>
+      * {
+        background-color: rgb(148, 148, 148);
+        padding: 0;
+        margin: 0;
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: orange;
+      }
+      .container {
+        position: relative;
+        top: 200px;
+        left: 200px;
+      }
+      #flower {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+      }
+      .rel2 {
+        background-color: orangered;
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+      .rel3 {
+        position: relative;
+        top: 50px;
+        left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="container">
+      <p class="text1">0해바라기</p>
+      <img id="flower" src="static/img/sunimg.jpeg" style="width: 200px; height: 50px" />
+    </p>
+    <div>1</div>
+    <div class="rel2">2</div>
+    <div class="rel3">3</div>
+  </body>
+</html>
